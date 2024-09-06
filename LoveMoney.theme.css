@@ -1,0 +1,40 @@
+/**
+* @name My theme
+* @version 1.0
+* @description Created by Quyen
+* @author Quyen
+*/
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+:root {
+--background-image: url('https://i.imgur.com/Z5eu1jn.png');
+--background-image-blur: 4px;
+--background-image-size: cover;
+--background-image-position: center;
+--popout-modal-position: center;
+--serverlist-brightness: 0.7;
+--left-brightness: 0.8;
+--middle-brightness: 0.9;
+--right-brightness: 0.7;
+--popout-modal-brightness: 1;
+--gradient-primary: 183,137,143;
+--gradient-secondary: 95,36,28;
+--gradient-direction: 253deg;
+--tint-colour: 255,51,159;
+--tint-brightness: 0;
+--window-padding: 1px;
+--window-roundness: 1px;
+--scrollbar-colour: #0c0404;
+--link-colour: #00b7ff;
+--show-gift-gif-buttons: no-repeat;
+--font: 'Roboto';
+--update-notice-1: none;
+--header-primary: #ffffff;
+--header-secondary: #bbb;
+--channels-default: #ddd;
+--interactive-hover: #eee;
+--popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+--popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+--popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+--popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+}
